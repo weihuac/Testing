@@ -39,6 +39,10 @@
         </a-entity>
       </a-entity>
 
+      
+      <!-- More testing -->
+      <a-ocean color="aqua" depth="100" width="100"></a-ocean>
+      
       <!-- CONE TWIST -->
       <a-entity position="2 0 -1">
         <a-text value="Cone Twist" position="0 1.5 0" align="center"></a-text>
@@ -123,7 +127,11 @@
                radius="0.125"
                position="0 1 0"
                ammo-body ammo-shape
-               ammo-constraint="type: slider; target: #slider-target" mixin="grab" class="click">
+               ammo-constraint="type: slider; target: #slider-target" mixin="grab" class="click"
+               dynamic-body
+               spring="target: #slider-target;
+               damping: 0.25;
+               stiffness: 25;">
         </a-sphere>
         <a-cylinder radius="0.05" height="2" position="0 1 0" rotation="0 0 90"></a-cylinder>
       </a-entity>
