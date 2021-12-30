@@ -1,4 +1,5 @@
 - [Hello world!](helloworld.html)
+- [Basic physics testing](test1.html)
 
 ## Welcome to GitHub Pages
 
