@@ -26,14 +26,7 @@
         </a-mixin>
       
       <a-entity id="cameraRig">
-        <a-camera camera wasd-controls position="0 1 1"
-                capture-mouse
-                raycaster="objects: .click" cursor="rayOrigin:mouse"
-                static-body="shape: sphere; sphereRadius: 0.001"
-                super-hands="colliderEvent: raycaster-intersection;
-                             colliderEventProperty: els;
-                             colliderEndEvent:raycaster-intersection-cleared;
-                             colliderEndEventProperty: clearedEls;"></a-camera>
+        <a-camera camera wasd-controls position="0 1 1"></a-camera>
         <a-entity teleport-controls="cameraRig: #cameraRig; button: trigger; type: line"
           ammo-body="type: kinematic"
           ammo-shape="type: box; halfExtents: 0.05 0.1 0.1; fit: manual;"
