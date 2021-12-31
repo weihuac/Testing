@@ -21,8 +21,10 @@
 
             
             <!-- Camera -->
-              <a-entity position="0 2 10" wasd-controls="acceleration:100">
-                <a-camera></a-camera>
+              <a-entity id="cameraRig" position="0 2 10">
+                <a-camera wasd-controls="acceleration:500"></a-camera>
+                <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ffcccc" teleport-controls="cameraRig: #cameraRig; button: trigger; type: line"></a-entity>
+                <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc" teleport-controls="cameraRig: #cameraRig; button: trigger"></a-entity>
               </a-entity>
            
             
