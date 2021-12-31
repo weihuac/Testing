@@ -14,6 +14,8 @@
         <a-scene renderer="colorManagement: true">
 
             <a-assets>
+                
+                <a-asset-item id="couch" src="SM_Prop_Couch_04 (2).gltf"></a-asset-item>
                 <a-asset-item id="officeStatic" src="HomeOffice.gltf"></a-asset-item>
             </a-assets>
 
@@ -22,8 +24,10 @@
               <a-entity position="0 25 100">
                 <a-camera></a-camera>
               </a-entity>
+           
             
-            <!-- Your 3D Model 01 -->
+            <a-entity gltf-model="#couch"></a-entity>
+            
             <a-entity gltf-model="#officeStatic"></a-entity>
             
             
