@@ -2,6 +2,7 @@
 - [Basic physics testing](test1.html)
 - [Test 2](test2.html)
 - [Threejs course package](threejs-games-course-master/index.html)
+- [Static home office](assets/homeoffice.html)
 
 ## Welcome to GitHub Pages
 
