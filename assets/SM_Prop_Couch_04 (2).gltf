@@ -1,0 +1,189 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 678,
+      "type": "VEC3",
+      "max": [
+        0.913887083530426,
+        0.91007137298583984,
+        0.41401731967926025
+      ],
+      "min": [
+        -0.91388702392578125,
+        0.0,
+        -0.5185278058052063
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 678,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 678,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.69558560848236084,
+        0.99104869365692139,
+        1.0
+      ],
+      "min": [
+        -0.99988424777984619,
+        -0.67734718322753906,
+        -0.99418902397155762,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 678,
+      "type": "VEC2",
+      "max": [
+        0.080344490706920624,
+        0.25445738434791565
+      ],
+      "min": [
+        0.025720298290252686,
+        0.17455543577671051
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1134,
+      "type": "SCALAR",
+      "max": [
+        677.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2019.2.11f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "SM_Prop_Couch_04 (2).bin",
+      "byteLength": 37080
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8136,
+      "byteLength": 8136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16272,
+      "byteLength": 10848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27120,
+      "byteLength": 5424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32544,
+      "byteLength": 4536
+    }
+  ],
+  "images": [
+    {
+      "uri": "PolygonOffice_Texture_04_A.jpg",
+      "name": "PolygonOffice_Texture_04_A"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.79999999701976776
+      },
+      "name": "PolygonOffice_Material_04_A"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "SM_Prop_Couch_04 (2)"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.707106769,
+        0.0,
+        -0.7071068
+      ],
+      "translation": [
+        -2.26,
+        0.0,
+        -0.167
+      ],
+      "name": "SM_Prop_Couch_04 (2)"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "SM_Prop_Couch_04 (2)"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "PolygonOffice_Texture_04_A"
+    }
+  ]
+}
